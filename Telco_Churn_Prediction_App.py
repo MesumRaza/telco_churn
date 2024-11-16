@@ -4,7 +4,7 @@ from joblib import load
 import dill
 
 # Load the pretrained model
-with open('pipeline.pkl', 'rb') as file:
+with open('pipeline2.pkl', 'rb') as file:
     model = dill.load(file)
 
 my_feature_dict = load('my_feature_dict.pkl')
